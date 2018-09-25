@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "jest-projects-repro",
+  "version": "1.0.0",
+  "scripts": {
+    "jest": "jest --config jest.config.js",
+    "test": "./lib/test.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "jest": "^23.6.0",
+    "react": "^16.5.2"
+  }
+}
